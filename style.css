@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    background-color: rgb(120, 118, 117);
+}
+
+h1{
+    color:whitesmoke
+}
+
+h2{
+    color:whitesmoke;
+}
+
+a {
+    background-color: white;
+}
+
