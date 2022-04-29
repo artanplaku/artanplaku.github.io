@@ -6,14 +6,24 @@ body {
 
 .left {
 background-color: aliceblue;
+background: url(pexels-david-skyrius-2129796.jpg);
 height: 100vh;
 width: 50%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.inside__text {
+color: black;
+font-size: 50px;
 }
 
 .left__box {
 background-color: aquamarine;
 height: 50%;
-width: 50%;
+width: 45%;
+text-align: center;
 }
 
 .right {
@@ -26,24 +36,39 @@ justify-content: center;
 flex-direction: column;
 }
 
+.about__me {
+    color:bisque;
+}
+
+.my__projects {
+    color: aliceblue;
+    text-align: center;
+}
+
+.contact__me{
+    color: white;
+    text-align: center;
+}
+
 .right__box1{
-    background-color: rgb(117, 128, 124);
+    background-color: purple;
     height: 100px;
-    width: 100px;
+    width: 300px;
     flex-direction: column;
+    text-align: center;
 
 }
 
 .right__box2{
-    background-color: red;
+    background-color: orange;
     height: 100px;
-    width: 100px;
+    width: 300px;
 }
     
 .right__box3{
- background-color: white;
+ background-color: red;
  height: 100px;
-width: 100px;
+width: 300px;
     }
 
 
